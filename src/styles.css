@@ -3,3 +3,39 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --secondary-color: #0891b3;
+  --primary-color: #ffffff;
+}
+
+body {
+  min-height: 100vh;
+  height: max-content;
+  min-width: 360px;
+}
+
+.background1 {
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  clip-path: polygon(0 0%, 100% 0%, 100% 20%, 0 50%);
+  z-index: -1;
+  position: absolute;
+}
+
+.background2P {
+  height: inherit;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: -2;
+  position: absolute;
+}
+
+h1 {
+  font-size: calc(1.5rem + 3vw);
+}
+
+.main-image{
+  
+}
