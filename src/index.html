@@ -10,28 +10,32 @@
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
 
-    <title>Ashly's Page</title>
+    <title>Ashley's Page</title>
   </head>
   <body>
-    <div class="background1"></div>
-    <div class="background2"></div>
+    <div class="background1wrap"><div class="background1"></div></div>
+    <!-- <div class="background2"></div> -->
     <header>
-      <picture>
-        <source
-          media="(max-width: 799px)"
-          srcset="./assets/pexels-vurzie-kim-small.jpg"
-        />
-        <source
-          media="(min-width: 800px)"
-          srcset="./assets/pexels-vurzie-kim-medium.jpg"
-        />
-        <img
-          class="main-image"
-          src="./assets/pexels-vurzie-kim-small.jpg"
-          alt=""
-        />
-      </picture>
-      <h1 class="main-image-name playfair-display-regular">Ashley Williams</h1>
+      <div class="header-photo">
+        <picture>
+          <source
+            media="(max-width: 799px)"
+            srcset="./assets/pexels-vurzie-kim-small.jpg"
+          />
+          <source
+            media="(min-width: 800px)"
+            srcset="./assets/pexels-vurzie-kim-medium.jpg"
+          />
+          <img
+            class="main-image"
+            src="./assets/pexels-vurzie-kim-small.jpg"
+            alt=""
+          />
+        </picture>
+        <h1 class="main-image-name playfair-display-regular">
+          Ashley Williams
+        </h1>
+      </div>
       <div class="about-me">
         <div class="title">
           <h2 class="playfair-display-regular">About Me</h2>
@@ -60,7 +64,7 @@
         <div class="title">
           <h2 class="playfair-display-regular">My work</h2>
         </div>
-        <div class="body">
+        <div class="projects-body">
           <div class="project-cards">
             <div class="card">
               <div class="screenshot">
@@ -216,12 +220,16 @@
           </p>
         </div>
         <div class="address">
-          <div class="street-address">1234 Random Road</div>
-          <div class="towncity">Random Town, California 12345</div>
+          <div class="street-address roboto-regular">1234 Random Road</div>
+          <div class="towncity roboto-regular">
+            Random Town, California 12345
+          </div>
         </div>
         <div class="contactme">
-          <div class="phone">555-555-5555</div>
-          <div class="email">ashleywilliams.is.not.real@gmail.com</div>
+          <div class="phone roboto-regular">555-555-5555</div>
+          <div class="email roboto-regular">
+            ashleywilliams.is.not.real@gmail.com
+          </div>
         </div>
         <div class="links">
           <a href="www.github.com">
@@ -233,7 +241,23 @@
           </a>
         </div>
       </div>
-      <div class="photo2"></div>
+      <div class="photo2">
+        <picture>
+          <source
+            media="(max-width: 799px)"
+            srcset="./assets/pexels-belle-co-small.jpg"
+          />
+          <source
+            media="(min-width: 800px)"
+            srcset="./assets/pexels-belle-co-medium.jpg"
+          />
+          <img
+            class="footer-image"
+            src="./assets/pexels-belle-co-small.jpg"
+            alt=""
+          />
+        </picture>
+      </div>
     </footer>
   </body>
 </html>
